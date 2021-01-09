@@ -9,7 +9,17 @@
 * [Technical Details](#Technical-Details)
 
 ## Description
-ROS2 package for serial-interfacing with waterlinked A50  DVL. There is also an associated custom-ros2-message for DVL measurement data.
+ROS2 package for serial-interfacing with waterlinked A50  DVL. 
+There is also an associated custom-ros2-message for DVL measurement data.
+
 ![a50_side](./img/a50_front.jpeg)
+
+## Prerequisites
+* Linux distributions Bionic (Ubuntu 18.04)
+* C++ 11 compiler or newer.
+* ROS2 - Eloquent 
+
+## Wiring
+
 
 
