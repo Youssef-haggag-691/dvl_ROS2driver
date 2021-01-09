@@ -22,6 +22,14 @@ There is also an associated custom-ros2-message for DVL measurement data.
 ## Wiring
 ![wiring_dvl](./img/wiring_dvl.png)
 
+## Installation
+Inside the src folder of your ROS2 workspace, clone the package 
+
+```
+$ cd ~/vortex_ws/src
+$ git clone git clone https://github.com/MoMagDii/dvl_ROS2driver.git
+```
+
 
 
 
