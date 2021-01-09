@@ -24,11 +24,35 @@ There is also an associated custom-ros2-message for DVL measurement data.
 
 ## Installation
 Inside the src folder of your ROS2 workspace, clone the package 
-
 ```
 $ cd ~/vortex_ws/src
 $ git clone git clone https://github.com/MoMagDii/dvl_ROS2driver.git
 ```
+## Usage
+1-Build the package
+```
+$ cd ~/vortex_ws
+$ colcon build --packages-select dvl_message dvl_interface
+```
+2- Open a new terminal and source the workspace and execute the Rx node,
+```
+$ cd ~/vortex_ws
+$ . install/setup.bash
+$ ros2 run dvl_interface Rx
+```
+3- Open a new terminal and source the ws and execute the Parser node.
+```
+$ cd ~/vortex_ws
+$ . install/setup.bash
+$ ros2 run dvl_interface Parser
+```
+4- Open a new terminal and source the ws and execute the Dvl node.
+```
+$ cd ~/vortex_ws
+$ . install/setup.bash
+$ ros2 run dvl_interface Dvl
+```
+![a50](./img/a50.gif)
 
 
 
