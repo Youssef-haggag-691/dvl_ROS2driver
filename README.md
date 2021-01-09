@@ -20,6 +20,8 @@ There is also an associated custom-ros2-message for DVL measurement data.
 * ROS2 - Eloquent 
 
 ## Wiring
+![wiring_dvl](./img/wiring_dvl.png)
+
 
 
 
